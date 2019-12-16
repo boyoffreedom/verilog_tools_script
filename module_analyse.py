@@ -69,8 +69,6 @@ def signal_analyser(string):
         signal_width = list(filter(None, signal_width))
         for sw in signal_width:
             sw_ = ''.join(sw.split())  # 压缩信号内部的空格
-            print(sw)
-            print(sw_)
             eachline = eachline.replace(sw,sw_)
 
 
